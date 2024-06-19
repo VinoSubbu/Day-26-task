@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+body{
+    margin: 2rem 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    border-bottom: 2px solid #333; 
+    
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 3px solid white;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar-menu li a:hover {
+    color: green; 
+    border-bottom: 5px solid green;
+
+}
